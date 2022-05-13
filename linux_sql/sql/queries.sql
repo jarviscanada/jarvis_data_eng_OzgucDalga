@@ -1,4 +1,4 @@
-ELECT cpu_number,id AS host_id,total_mem
+SELECT cpu_number,id AS host_id,total_mem
 FROM host_info
 GROUP BY cpu_number, id
 ORDER BY total_mem DESC;
