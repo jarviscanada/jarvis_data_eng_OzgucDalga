@@ -1,4 +1,4 @@
-REATE TABLE IF NOT EXISTS PUBLIC.host_info 
+CREATE TABLE PUBLIC.host_info
   ( 
      id               SERIAL NOT NULL, 
      hostname         VARCHAR NOT NULL, 
