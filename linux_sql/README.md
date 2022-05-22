@@ -1,3 +1,4 @@
+
 #Introduction 
 
    In this Linux_SQl project, some data/information will be stored and they will have generated the reports for the future. The data which is called hardware specifications will be recorded. Secondly, the data which is called node/resources/server(CPU/Memory) will be monitored. Later on, collected data will have been stored in RDBMS. In order to do that, three different servers/nodes will be set up, each node is going to be linked through an internal connection to switch. Bash agent will collect server usage data and then bash gent will insert them into the PSQL instance. In order to do that, it will have two main bash scripts host_info.sh and host_usage.sh, Basic steps are listed below.
@@ -86,3 +87,5 @@ The project has been deployed in Github applying each ticket of the sprint, In t
     - The importance of using the different branches in GitFlow and Github.
     - Team collaboration,
     - Agile techniques with implementations.
+
+
