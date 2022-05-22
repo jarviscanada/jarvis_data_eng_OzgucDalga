@@ -80,7 +80,9 @@ The diagram is located on asset folder.
 
 #Test
 
+
     On the condition that there is an error, the terminal will be controlled in order to clarify the error. Based on the name of the error style and its visible location will have estimated. Finally, the error will have been fixed, and regenerate the program.
+    
 
 #Deployment
 
