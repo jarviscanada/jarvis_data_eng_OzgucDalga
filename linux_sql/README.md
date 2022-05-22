@@ -33,17 +33,19 @@ The technologies that will be used;
         
 #Implementaion 
 
-        During Linux-SQL project
+     During Linux-SQL project
    - Created SQL instance by using ` psql_docker.sh`
    - Created `host_agent` database in psql instance,` host_agent` has two tables,` host_info` table contains hardware specifications, `host_usage` table contains monitor resource usage data.
    -` Monitoring_agent` phase, in that phase, `bash_agent` will be run directly for two tables as well as `host_usage.sh` will work every minute due to the Crontab package using.
    
    
 #Architecture
+
 The diagram is located on asset folder.
 
 
 #Scripts 
+
   ` psql_docker.sh` is to create /start/stop psql container
         `-/scripts/psql_docker.sh  start/stop/create`
     `host_info.sh` is a script to add the hardware specification to the psql instance.
@@ -65,6 +67,7 @@ The diagram is located on asset folder.
                 L2_cache = Cache memory in the level two
                 total_mem = Total memory
                 timestamp = UTC time value
+                
         - `host_usage`
                 timestamp = UTC Time value
                 host_id = PK
