@@ -1,4 +1,5 @@
 #Introduction 
+
    In this Linux_SQl project, some data/information will be stored and they will have generated the reports for the future. The data which is called hardware specifications will be recorded. Secondly, the data which is called node/resources/server(CPU/Memory) will be monitored. Later on, collected data will have been stored in RDBMS. In order to do that, three different servers/nodes will be set up, each node is going to be linked through an internal connection to switch. Bash agent will collect server usage data and then bash gent will insert them into the PSQL instance. In order to do that, it will have two main bash scripts host_info.sh and host_usage.sh, Basic steps are listed below.
   - Creation of postgreSQL instance,
   - Database Tables,
@@ -15,6 +16,7 @@ The technologies that will be used;
   - DML (Data Maniplulation Language).
 
 #Quick Start
+
     Create PSQL instance;
         `-/scripts/psql_docker.sh  start`
      Create Table;
@@ -27,7 +29,9 @@ The technologies that will be used;
         Step 1 = Contrab edition
                 `contrab -e`
         Step 2 = Contrab addition
+        
 #Implementaion 
+
         During Linux-SQL project
    - Created SQL instance by using ` psql_docker.sh`
    - Created `host_agent` database in psql instance,` host_agent` has two tables,` host_info` table contains hardware specifications, `host_usage` table contains monitor resource usage data.
@@ -43,7 +47,9 @@ The diagram is located on asset folder.
     Crontab : it is a script to run `host_usage.sh` every minute
         ` * * * * * bash/ home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log `
         `crontab -l`
+        
 #Database Modelling 
+
         -` host_info`
                 id = PK
                 hostname = hostname
@@ -62,14 +68,18 @@ The diagram is located on asset folder.
                 cpu_kernel = Kernel time
                 disk_io = The amount of disk
                 disk_available = Suitable disk amount (MB)
+                
 
 #Test
+
     On the condition that there is an error, the terminal will be controlled in order to clarify the error. Based on the name of the error style and its visible location will have estimated. Finally, the error will have been fixed, and regenerate the program.
 
 #Deployment
+
 The project has been deployed in Github applying each ticket of the sprint, In this Linux-SQL project, there were eight tickets which are implementation tickets, based on the spring schedule, each ticket implementation has its own branch name and each branch was merged into develop branch.
 
 #Improvements
+
     - Handle  hardware updates,
     - RDBMS/SQL, POSTGRESQL,
     - The necessity of Time management in the real-time project,
