@@ -8,7 +8,7 @@
   - Monitoring node/server resources(Cpu/Memory),
   - To store the collected data on RDBMS,
   - To manage the data needs.
-  - 
+  
 The technologies that will be used;
 
   - Git/Github/GitFlow,
