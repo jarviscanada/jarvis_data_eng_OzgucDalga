@@ -8,7 +8,9 @@
   - Monitoring node/server resources(Cpu/Memory),
   - To store the collected data on RDBMS,
   - To manage the data needs.
+  - 
 The technologies that will be used;
+
   - Git/Github/GitFlow,
   - Bash,
   - Docker,
@@ -63,7 +65,7 @@ The diagram is located on asset folder.
                 cpu_number = The number of CPU
                 cpu_architecture = Processor
                 cpu_model = The model of CPU
-               cpu_mhz =  CPU speed
+                cpu_mhz =  CPU speed
                 L2_cache = Cache memory in the level two
                 total_mem = Total memory
                 timestamp = UTC time value
