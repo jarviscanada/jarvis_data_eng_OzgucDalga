@@ -1,5 +1,8 @@
 package ca.jrvs.apps.jdbc;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Properties;
 
 public class DatabaseConnectionManager {
@@ -10,11 +13,11 @@ public class DatabaseConnectionManager {
   /**
    * the constructor parts are attached below
    * @param host
-   * @param DatabaseName
+   * @param databaseName
    * @param username
    * @param password
    */
-  public DatabaseConnectionManager(String host, String DatabaseName,
+  public DatabaseConnectionManager(String host, String databaseName,
                                     String username, String password){
     this.url = "jdbc:postgresql://"+host+"/"+databaseName;
     this.properties= new Properties();
@@ -23,7 +26,7 @@ public class DatabaseConnectionManager {
 
   }
 
-  public Connection getConnection() throws SQLException{
+  public Connection getConnection() throws SQLException {
     return DriverManager.getConnection(this.url, this.properties);
   }
 

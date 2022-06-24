@@ -13,9 +13,9 @@ public class JDBCExecutor {
         try {
             Connection connection = dcm.getConnection();
             Statement statement = connection.createStatement();
-            ResultSet resultset = statement.executeQuery("SELECT COUNT(*) FROM CUSTOMER");
+            ResultSet resultSet = statement.executeQuery("SELECT COUNT(*) FROM CUSTOMER");
 
-            while (resultset.next()) {
+            while (resultSet.next()) {
                 System.out.println(resultSet.getInt(1));
 
             }
