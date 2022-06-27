@@ -1,5 +1,7 @@
 package ca.jrvs.apps.jdbc;
 
+import ca.jrvs.apps.jdbc.util.DataAccessObject;
+import ca.jrvs.apps.jdbc.util.DataTransferObject;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -17,7 +19,7 @@ public class JDBCExecutor {
           /**
            * THIS IS FOR CREATING DATA FROM DATABASE
            */
-          Customer customer = new Customer();
+            Customer customer = new Customer();
             customer.setFirstName("Oguchi");
             customer.setLastName("DALGA");
             customer.setEmail("oguchi@yahoo.com");
@@ -31,9 +33,17 @@ public class JDBCExecutor {
               /**
               this is for READING DATA FROM DATABASE
                */
-            Customer customer1= customerDao.findById(135);
+           Customer customer1= customerDao.findById(135);
             System.out.println(customer1.getFirstName() + " " +customer1.getLastName());
 
+
+          Customer customer2 = customerDao.findById(10000);
+          System.out.println(customer2.getFirstName() + " " + customer2.getLastName() + " " +
+              customer2.getEmail());
+          customer2.setEmail("oguchi@gmail.com");
+          customer2 = customerDao.update(customer2);
+          System.out.println(customer2.getFirstName() + " " + customer2.getLastName() + " " +
+              customer2.getEmail());
 
         } catch (SQLException e) {
             e.printStackTrace();
