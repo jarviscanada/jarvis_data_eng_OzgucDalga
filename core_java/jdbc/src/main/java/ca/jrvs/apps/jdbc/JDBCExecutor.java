@@ -36,7 +36,9 @@ public class JDBCExecutor {
            Customer customer1= customerDao.findById(135);
             System.out.println(customer1.getFirstName() + " " +customer1.getLastName());
 
-
+            /**
+            this is for getting by id and update  method
+             */
           Customer customer2 = customerDao.findById(10000);
           System.out.println(customer2.getFirstName() + " " + customer2.getLastName() + " " +
               customer2.getEmail());
@@ -44,6 +46,30 @@ public class JDBCExecutor {
           customer2 = customerDao.update(customer2);
           System.out.println(customer2.getFirstName() + " " + customer2.getLastName() + " " +
               customer2.getEmail());
+
+          /**
+           * this is for feeleting method
+           */
+          Customer customer3= new Customer();
+          customer3.setFirstName("John");
+          customer3.setLastName("Adams");
+          customer3.setEmail("jadams.wh.gov");
+          customer3.setAddress("1234 Main St");
+          customer3.setCity("Arlington");
+          customer3.setState("VA");
+          customer3.setPhone("(555) 555-9845");
+          customer3.setZipCode("01234");
+
+          Customer dbCustomer = customerDao.create(customer);
+          System.out.println(dbCustomer);
+          dbCustomer = customerDao.findById(dbCustomer.getId());
+          System.out.println(dbCustomer);
+          dbCustomer.setEmail("john.adams@wh.gov");
+          dbCustomer = customerDao.update(dbCustomer);
+          System.out.println(dbCustomer);
+          customerDao.delete(dbCustomer.getId());
+
+
 
         } catch (SQLException e) {
             e.printStackTrace();
