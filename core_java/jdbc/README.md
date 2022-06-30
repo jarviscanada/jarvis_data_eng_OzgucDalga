@@ -6,7 +6,7 @@ In this core_java JDBC project, it is aim to create  a connection between Java p
 ![ER_diagram](./assets/ER_diagram.png)
 
 # Design Patterns
-During JDBC proh=ject, DAO and repository design pattern were implemented (Repository pattern is only applied for creating different table rather than main project).                                                                         
+During JDBC project, DAO and repository design pattern were implemented (Repository pattern is only applied for creating different table rather than main project).                                                                         
 Dao pattern provides abstraction between JDBC and the rest of the code(specifically business logic). Moreover, DAO comes for two main things which are just abstraction and true object. Dao leverages a common interface and ussually supports multiple tables.
 Repository pattern focuses only a single table access per class. Instead of joinning database, it joins in code. In other words; repository pattern allows shading of the database. It makes possible store one piece of data in a seperate database to faciliate disturbution. 
 
