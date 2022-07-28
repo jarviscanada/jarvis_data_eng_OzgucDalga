@@ -15,7 +15,7 @@ I graduated from Lambton College with a degree in Computer Software & Database M
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_OzgucDalga](https://github.com/jarviscanada/jarvis_data_eng_OzgucDalga)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OzgucDalga/tree/master/linux_sql)]:Developed an application in Linux centos7. The application collects hardware data and monitors them by using a bash Script. Thedata is stored in Postgresql instance deployed in docker. Throughouht testing, application is tested by using a simplified pre-defined SQL queries. The application is scheduled using crontab.  
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OzgucDalga/tree/master/linux_sql)]:Developed an application in Linux centos7. The application collects hardware data and monitors them by using a bash Script.The data is stored in Postgresql instance deployed in docker. Throughouht testing, application is tested by using a simplified pre-defined SQL queries. The application is scheduled using crontab.  
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OzgucDalga/tree/master/core_java)]:
       
