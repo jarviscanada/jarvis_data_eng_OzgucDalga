@@ -12,10 +12,10 @@ import java.util.Arrays;
 
 public class TwitterApiTest {
 
-  private static String CONSUMER_KEY= System.getenv ("Z2x4yT6EFlGq7ko46Kkig5ba0");
-  private static String CONSUMER_SECRET = System.getenv("N1K4BviusNHKjaw7vIyLV9Iex1bCV8ET4D55196nNiTqKZaa1z");
-  private static String ACCESS_TOKEN =System.getenv("1529479207817977856-3KW3Q3QcFcvBrcK7ijDEy8fZSOIcQR");
-  private static String TOKEN_SECRET = System.getenv("mkylqLYclnRJXksIlla8SyxKTlGCViW06iVTvby99ITLG");
+  private static String CONSUMER_KEY= System.getenv ("consumerKey");
+  private static String CONSUMER_SECRET = System.getenv("consumerSecret");
+  private static String ACCESS_TOKEN =System.getenv("accessToken");
+  private static String TOKEN_SECRET = System.getenv("tokenSecret");
 
 
   public static void main(String[] args)  throws Exception{
