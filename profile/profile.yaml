@@ -135,8 +135,9 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_OzgucDalga/tree/main/core_java"
     description:
-      - "Twitter App:"
+      - "Twitter App:                               "
       - "JDBC App: Designed an application that executes JDBC API to connect between Java program and PostgreSQL database instance deployed using Docker. CRUD operations are applied based on JDBC connection with pre-defined SQL queries. The outputs are monitored on the DbeaverUI program."
+
       - "Grep App: Developed an application that recreates a basic Linux grep command. The application is built using Maven. Performed Lambda functions and Stream Api to reduce memory usage and to catch an optimum performance. The application is also deployed on the Docker hub."
   - name: ""
     git_url: ""
