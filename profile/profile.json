@@ -1,22 +1,11 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "     ",
-        "     ",
-        "     "
-      ],
+      "awards_achievements": null,
       "degree": "Computer Software \u0026 Database Management",
       "department": "Computer Engineering",
       "duration": "2020-2021",
       "school_name": "Lambton College"
-    },
-    {
-      "awards_achievements": null,
-      "degree": "          ",
-      "department": "        ",
-      "duration": "         ",
-      "school_name": "     "
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_OzgucDalga",
@@ -62,7 +51,7 @@
         "Basketball: Having regular activity on weekends as an amateur player",
         "         "
       ],
-      "title": "Miscellaneous "
+      "title": "Miscellaneou "
     }
   ],
   "professional_experience": [

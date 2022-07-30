@@ -173,17 +173,9 @@ education:
     duration: "2020-2021"
     degree: "Computer Software & Database Management"
     department: "Computer Engineering"
-    # optional
-    awards_achievements: 
-      - "     "
-      - "     "
-      - "     "
-  - school_name: "     "
-    duration: "         "
-    degree: "          "
-    department: "        "
-    awards_achievements: 
-
+    #Optional 
+    awards_achievements:
+      
 #Optional section
 others:
     #category
@@ -194,7 +186,7 @@ others:
   - title: "       "
     bullets:
       - "           "
-  - title: "Miscellaneous "
+  - title: "Miscellaneou "
     bullets:
       - "Triathlon: Keeping on my training as a junior ironmanr"
       - "Basketball: Having regular activity on weekends as an amateur player"
