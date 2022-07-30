@@ -150,9 +150,7 @@ highlighted_projects:
     git_url: "https://github.com/ozgucdlg/mernStackHistoryAgenda"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Designed an application using Visual Studio code editor. The application utilizes javascript codes along with the ReactJs framework and updates the database(MongoDB) with pre-defined SQL queries. Application is built and compiled using NPM package manager and organized with MVC architecture implementing ReactJS advanced hooks. The source code is published on Github.
-  - name: "     "
-    git_url:
-    description:  "                                                                                                                                                           "
+  
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
