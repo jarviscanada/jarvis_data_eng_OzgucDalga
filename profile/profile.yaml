@@ -162,10 +162,10 @@ professional_experience:
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Worked on the Jarvis-training program as a full-stack developer. My main responsibilities are: Designing and developing APIs using JAVA. Developing backend websites application through SprinBoot java. Designing database functionalities using PostgreSQL. Managing the requirement of agile methodologies such as Scrum meetings. Designing the containerization requirements for current applications in Docker. Handling version updates control, Git, Github, and Gitflow."
-  - title:  "    " 
-    company: "     "
-    duration: "        "
-    description: "                                                                                                                                                                                                                                  "
+
+
+  
+   
 
 #List of edcuation
 education: 
