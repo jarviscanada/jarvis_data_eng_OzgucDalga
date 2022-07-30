@@ -98,7 +98,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_OzgucDalga
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I graduated from Lambton College with a degree in Computer Software & Database Management, and am now a full stack developer at Jarvis Consulting Group, where I work in an Agile environment. I have experience with Java, Maven, JUnit, MySQL, PostgreSQL, bash, and docker. I have used Postman for developing RESTful apps. I consider myself a positive person, a cross-functional team member, a quick learner, detail-oriented, and adaptable to changing circumstances. I always make sure that I meet deadlines. Throughout my career, I have had a strong passion for math and am interested in searching for new technologies and implementing them in-depth.
+summary: I graduated from Lambton College with a degree in Computer Software & Database Management, and am now a full Stack developer at Jarvis Consulting Group, where I work in an Agile environment. I have experience with Java, Maven, JUnit, MySQL, PostgreSQL, bash, and docker. I have used Postman for developing RESTful apps. I consider myself a positive person, a cross-functional team member, a quick learner, detail-oriented, and adaptable to changing circumstances. I always make sure that I meet deadlines. Throughout my career, I have had a strong passion for math and am interested in searching for new technologies and implementing them in-depth.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -163,10 +163,6 @@ professional_experience:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Worked on the Jarvis-training program as a full-stack developer. My main responsibilities are: Designing and developing APIs using JAVA. Developing backend websites application through SprinBoot java. Designing database functionalities using PostgreSQL. Managing the requirement of agile methodologies such as Scrum meetings. Designing the containerization requirements for current applications in Docker. Handling version updates control, Git, Github, and Gitflow."
 
-
-  
-   
-
 #List of edcuation
 education: 
   - school_name: "Lambton College"
@@ -178,16 +174,9 @@ education:
       
 #Optional section
 others:
-    #category
-  - title: "      "
-    #list of items
+  
+  - title: "Miscellaneous"
     bullets:
-      - "        "
-  - title: "       "
-    bullets:
-      - "           "
-  - title: "Miscellaneou "
-    bullets:
-      - "Triathlon: Keeping on my training as a junior ironmanr"
-      - "Basketball: Having regular activity on weekends as an amateur player"
-      - "         "
+      - "Triathlon: Keeping on my training as a junior ironman."
+      - "Basketball: Having regular activity on weekends as an amateur player."
+      

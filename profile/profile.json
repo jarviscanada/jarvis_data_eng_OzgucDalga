@@ -35,23 +35,10 @@
   "others": [
     {
       "bullets": [
-        "        "
+        "Triathlon: Keeping on my training as a junior ironman.",
+        "Basketball: Having regular activity on weekends as an amateur player."
       ],
-      "title": "      "
-    },
-    {
-      "bullets": [
-        "           "
-      ],
-      "title": "       "
-    },
-    {
-      "bullets": [
-        "Triathlon: Keeping on my training as a junior ironmanr",
-        "Basketball: Having regular activity on weekends as an amateur player",
-        "         "
-      ],
-      "title": "Miscellaneou "
+      "title": "Miscellaneous"
     }
   ],
   "professional_experience": [
@@ -85,5 +72,5 @@
       "Git"
     ]
   },
-  "summary": "I graduated from Lambton College with a degree in Computer Software \u0026 Database Management, and am now a full stack developer at Jarvis Consulting Group, where I work in an Agile environment. I have experience with Java, Maven, JUnit, MySQL, PostgreSQL, bash, and docker. I have used Postman for developing RESTful apps. I consider myself a positive person, a cross-functional team member, a quick learner, detail-oriented, and adaptable to changing circumstances. I always make sure that I meet deadlines. Throughout my career, I have had a strong passion for math and am interested in searching for new technologies and implementing them in-depth."
+  "summary": "I graduated from Lambton College with a degree in Computer Software \u0026 Database Management, and am now a full Stack developer at Jarvis Consulting Group, where I work in an Agile environment. I have experience with Java, Maven, JUnit, MySQL, PostgreSQL, bash, and docker. I have used Postman for developing RESTful apps. I consider myself a positive person, a cross-functional team member, a quick learner, detail-oriented, and adaptable to changing circumstances. I always make sure that I meet deadlines. Throughout my career, I have had a strong passion for math and am interested in searching for new technologies and implementing them in-depth."
 }
