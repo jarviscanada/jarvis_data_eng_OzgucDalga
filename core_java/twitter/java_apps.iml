@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/helper" />
+      <excludeFolder url="file://$MODULE_DIR$/src/test/java/ca/jrvs/apps/twitter/service" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
