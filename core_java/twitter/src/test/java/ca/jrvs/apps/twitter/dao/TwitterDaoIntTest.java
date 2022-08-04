@@ -5,6 +5,7 @@ import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
 import ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelper;
 import ca.jrvs.apps.twitter.example.JsonParser;
 import ca.jrvs.apps.twitter.model.Tweet;
+import ca.jrvs.apps.twitter.dao.TweetUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.Before;
 import org.junit.Test;

@@ -27,6 +27,8 @@ public interface Service {
      */
     Tweet showTweet(String id, String[] fields);
 
+    Tweet showTweet(String id) throws IllegalArgumentException;
+
     /**
      * Delete Tweet(s) by id(s).
      *
