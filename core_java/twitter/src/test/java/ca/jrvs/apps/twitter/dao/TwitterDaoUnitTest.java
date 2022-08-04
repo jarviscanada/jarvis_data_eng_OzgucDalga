@@ -1,5 +1,6 @@
 package ca.jrvs.apps.twitter.dao;
 
+
 import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
 import ca.jrvs.apps.twitter.example.JsonParser;
 import ca.jrvs.apps.twitter.model.Tweet;
@@ -12,9 +13,8 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.isNotNull;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.when;
-
-
 public class TwitterDaoUnitTest {
+
     final private String tweetJonsStr = "{\n"
             + "   \"created_at\":\"Mon Feb 18 21:24:39 +0000 2019\",\n"
             + "   \"id\":1097607853932564480,\n"
@@ -92,5 +92,4 @@ public class TwitterDaoUnitTest {
         assertNotNull(tweet.getText());
         assertEquals(tweet.getText(), "dao_unit_test");
     }
-
 }

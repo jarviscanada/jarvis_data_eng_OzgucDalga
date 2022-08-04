@@ -11,9 +11,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-
 public class TwitterDaoIntTest {
-
     static private String id_str;
     private final String text = "@Oguchi ";
     private final Double lat = 1d;
@@ -74,5 +72,4 @@ public class TwitterDaoIntTest {
         assertEquals(lon,tweet.getCoordinates().getCoordinates()[0]);
         assertEquals(lat,tweet.getCoordinates().getCoordinates()[1]);
     }
-
 }
